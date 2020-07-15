@@ -8,17 +8,17 @@
 
 #### Generación de datos
 
-Al desarrollar un proyecto, habitualmente se necesita un conjunto de datos para observar y testear el comportamiento de la aplicación. Es habitual que aún
+Al desarrollar un proyecto, habitualmente se necesita un conjunto de datos para observar y testear el comportamiento de la aplicación. Es habitual que en 
+etapas tempranas del proyecto aún
 estos datos no estén disponibles o al menos no en la cantidad necesaria. Por ejemplo, si desarrollamos una estación metereológica que mida la temperatura
-y muestre la evolución de la misma a lo largo de un año, al inicio del proyecto no tendremos datos. Necesitaremos obtener o generar de forma artificial
-esos datos para poder testear y desarrollar el sistema.
+y muestre la evolución de la misma a lo largo de un año, necesitaremos obtener o generar de forma artificial datos para poder testear y desarrollar el sistema.
 
 #### Datos con sentido
 
-No basta con llenar la base de datos con valores aleatorios sin más, sino que los datos pueden necesitar de cierto comportamiento. Volviendo al ejemplo
+No basta con rellenar la base de datos con valores aleatorios, sino que los datos pueden necesitar de cierto sentido. Volviendo al ejemplo
 de la estación metereológica, el dato *Temperatura* debería variar a lo largo del día, pero no tendría sentido que a las 14:00 hicieran 16ºC y a las 23:00
 el valor fuese de 29ºC. Tampoco tendría sentido que el termómetro marcase 20ºC a una determinada hora, 15ºC a la siguiente y 25ºC una hora más tarde.
-La temperatura debería seguir, por ejemplo, un patrón sinusoidal, donde la temperatura difiriese ligeramente de la medida anterior y posterior, y con
+La temperatura debería seguir, por ejemplo, un patrón sinusoidal, donde difiriese ligeramente de la medida anterior y posterior, y con
 una amplitud y frecuencia de onda que hiciese que los valores más altos se diesen durante las horas centrales del día y los más bajos durante la madrugada.
 Esto es solo un ejemplo simplificado para explicar el concepto de datos sintéticos.
 
