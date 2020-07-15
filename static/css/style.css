@@ -1,0 +1,36 @@
+body { font-family: sans-serif; }
+
+
+
+.draggable.is-dragging { opacity: 0.7; }
+
+#header {
+    height: 15%;
+}
+
+#board {
+    height: 80%;
+}
+
+tr:nth-child(even){
+    background-color: #17a2b8;
+}
+
+tr:nth-child(odd){
+    background-color: #3ccce2;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th {
+    font-weight: bold;
+}
+
+td, th {
+    padding: 10px;
+}
+
+
