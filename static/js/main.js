@@ -2,16 +2,9 @@ $('#create-table-btn').on('click', () => {
     $('#createTableModal').modal();
 })
 
-$('#add-table-btn').on('click', () => {
-    createTable();
-    $('.draggable').draggabilly({
-        containment: '#board'
-    });
-    $('#createTableModal').modal('hide');
-})
 
 $('#board').on('click', '.btn-values', function(e) {
-    console.log($(this).parent())
+    $('#selectDataModal').modal();
 })
 
 

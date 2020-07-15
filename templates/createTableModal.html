@@ -8,7 +8,18 @@
           </button>
         </div>
         <div class="modal-body">
-          ...
+            <div class="form-group">
+              <input id="tableName" type="text" class="form-control mr-2" placeholder="Nombre de la tabla">
+            </div>
+            <div class="form-group d-flex">
+              <input id="fieldName" type="text" class="form-control mr-2" placeholder="Nombre del campo">
+              <select id="fieldType" class="form-control mr-2">
+                <option value="">INT</option>
+                <option value="">VARCHAR</option>
+                <option value="">DATE</option>
+              </select>
+              <button id="add-field-btn" class="btn btn-secondary">+</button>
+            </div>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
